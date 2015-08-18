@@ -1,0 +1,39 @@
+a { color: #7EBEC5; }
+
+body { color: #666666; }
+
+.et_pb_counter_amount, .et_pb_featured_table .et_pb_pricing_heading, .et_pb_pricing_table_button, .comment-reply-link, .form-submit input { background-color: #7EBEC5; }
+
+.woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt,
+.woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt,
+.woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt,
+.woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt,
+.woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button,
+.woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button,
+.woocommerce #respond input#submit, .woocommerce-page #respond input#submit,
+.woocommerce #content input.button, .woocommerce-page #content input.button,
+.woocommerce-message, .woocommerce-error, .woocommerce-info
+{ background: #7EBEC5 !important; }
+
+#et_search_icon:hover, .mobile_menu_bar:before, .footer-widget h4,
+.et-social-icon a:hover, .et_pb_sum, .et_pb_pricing li a,
+.et_overlay:before, .entry-summary p.price ins, .woocommerce div.product span.price,
+.woocommerce-page div.product span.price, .woocommerce #content div.product span.price,
+.woocommerce-page #content div.product span.price, .woocommerce div.product p.price,
+.woocommerce-page div.product p.price, .woocommerce #content div.product p.price,
+.woocommerce-page #content div.product p.price
+{ color: #7EBEC5 !important; }
+
+.woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before
+{ color: #7EBEC5 !important; }
+
+.et-search-form, .nav li ul, .et_mobile_menu, .footer-widget li:before, .et_pb_pricing li:before
+{ border-color: #7EBEC5; }
+
+#main-footer { background-color: #2e2e2e; }
+
+#top-menu a { color: #666666; }
+
+#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a { color: #7CBEC6; }
+
+body.custom-background { background-color: #edede1; }
