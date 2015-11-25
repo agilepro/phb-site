@@ -1,6 +1,34 @@
 {
 "list": [
     {
+        "authors": ["Mitchell Diamond"],
+        "cats": ["philosophy", "religion", "consciousness"],
+        "dimensions": "6 x 9.0 x 0.80 in",
+        "isbn": "978-0-9863387-2-4",
+        "key": "bookdarwina",
+        "longTitle": "Darwin's Apple: The Evolutionary Biology of Religion",
+        "pages": "322",
+        "price": "$14.95",
+        "purchLink": "",
+        "ebookLink": "",
+        "title": "Darwin's Apple",
+        "weight": "1.0 pounds"
+    },
+    {
+        "authors": ["Barbara C Swenson", "Nancy Swenson Collopy", "Keith D Swenson", "Phyllis Swenson"],
+        "cats": ["travel", "journal", "family"],
+        "dimensions": "6 x 9.0 x 0.80 in",
+        "isbn": "978-0-9863387-3-1",
+        "key": "bookeasto",
+        "longTitle": "Eastern Odyssey: A Family Journal of our Trek through Japan and Russia in 1973",
+        "pages": "378",
+        "price": "$14.95",
+        "purchLink": "http://www.barnesandnoble.com/w/eastern-odyssey-keith-d-swenson/1122759856?ean=9780986338731&st=PLA&sid=BNB_DRS_Core+Shopping+Books_00000000&2sid=Google_&sourceId=PLGoP648&k_clickid=3x648",
+        "ebookLink": "",
+        "title": "Eastern Odyssey",
+        "weight": "1.1 pounds"
+    },
+    {
         "authors": ["Keith D Swenson", "Jim Farris"],
         "cats": ["Management", "Business", "ACM"],
         "dimensions": "6 x 9.0 x 0.88 in",
