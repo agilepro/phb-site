@@ -1,6 +1,34 @@
 {
 "list": [
     {
+        "authors": ["Tom Watts"],
+        "cats": ["philosophy", "religion", "consciousness"],
+        "dimensions": "5.5 x 8.5 x 0.80 in",
+        "isbn": "978-0-9863387-7-9",
+        "key": "bookdealdevil",
+        "longTitle": "Deal with the Devil, Dance with God: Finding the Ultimate High in a Polarized World by Seeing Self in Other",
+        "pages": "252",
+        "price": "$15.00",
+        "purchLink": "https://www.barnesandnoble.com/w/books/1130547692",
+        "ebookLink": "",
+        "title": "Deal with the Devil, Dance with God",
+        "weight": "0.8 pounds"
+    },
+    {
+        "authors": ["Bea Strickland"],
+        "cats": ["Dating", "relationships", "living together", "marriage: advice" ],
+        "dimensions": "5.5 x 8.5 x 0.40 in",
+        "isbn": "978-0-9863387-6-2",
+        "key": "bookfitting",
+        "longTitle": "Fitting Together: Connecting Couples in Conversation",
+        "pages": "124",
+        "price": "$9.50",
+        "purchLink": "https://www.barnesandnoble.com/w/fitting-together-bea-strickland/1127346310",
+        "ebookLink": "",
+        "title": "Fitting Together",
+        "weight": "1.0 pounds"
+    },
+    {
         "authors": ["Mitchell Diamond"],
         "cats": ["philosophy", "religion", "consciousness"],
         "dimensions": "6 x 9.0 x 0.80 in",
