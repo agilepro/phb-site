@@ -1,6 +1,20 @@
 {
 "list": [
     {
+        "authors": ["Keith Swenson"],
+        "cats": ["Management", "Business", "ACM", "ESP"],
+        "dimensions": "5.5 x 8.5 x 0.80 in",
+        "isbn": "XXXX-XXX-XXXXX-XXX",
+        "key": "bookbeyond",
+        "longTitle": "Beyond the Business Process Model: How Emergent Synthetic Processes will deliver on the promise of coordinating work.",
+        "pages": "140",
+        "price": "$24.00",
+        "purchLink": "",
+        "ebookLink": "",
+        "title": "Beyond the Business Process Model",
+        "weight": "0.8 pounds"
+    },
+    {
         "authors": ["Tom Watts"],
         "cats": ["philosophy", "religion", "consciousness"],
         "dimensions": "5.5 x 8.5 x 0.80 in",
