@@ -1,17 +1,31 @@
 {
 "list": [
     {
-        "authors": ["Keith Swenson"],
+        "authors": ["Keith D Swenson"],
         "cats": ["Management", "Business", "ACM", "ESP"],
-        "dimensions": "5.5 x 8.5 x 0.80 in",
+        "dimensions": "5.5 x 8.5 x 0.40 in",
         "isbn": "XXXX-XXX-XXXXX-XXX",
         "key": "bookbeyond",
         "longTitle": "Beyond the Business Process Model: How Emergent Synthetic Processes will deliver on the promise of coordinating work.",
-        "pages": "140",
-        "price": "$24.00",
-        "purchLink": "",
+        "pages": "150",
+        "price": "$38.00",
+        "purchLink": "http://www.lulu.com/shop/keith-swenson/beyond-the-business-process-model/paperback/product-24039779.html",
         "ebookLink": "",
         "title": "Beyond the Business Process Model",
+        "weight": "0.8 pounds"
+    },
+    {
+        "authors": ["Keith D Swenson", "Todd Palmer"],
+        "cats": ["Management", "Business", "Digital Transformation", "Center of Excellence"],
+        "dimensions": "5.5 x 8.5 x 0.40 in",
+        "isbn": "XXXX-XXX-XXXXX-XXX",
+        "key": "bookcoe",
+        "longTitle": "Digital Transformation Center of Excellence",
+        "pages": "186",
+        "price": "$24.00",
+        "purchLink": "http://www.lulu.com/shop/keith-swenson-and-todd-palmer/digital-transformation-coe/paperback/product-24020109.html",
+        "ebookLink": "",
+        "title": "Digital Transformation Center of Excellence",
         "weight": "0.8 pounds"
     },
     {
