@@ -1,6 +1,20 @@
 {
 "list": [
     {
+        "authors": ["Ralph W. Waugh"],
+        "cats": ["history", "biography", "Nova Scotia"],
+        "dimensions": "7 x 10 x 0.51 in",
+        "isbn": "978-0-9863387-8-6",
+        "key": "booktwosoldiers",
+        "longTitle": "Two Soldiers: The John David Family of Fox Harbour, Nova Scotia",
+        "pages": "264",
+        "price": "$48.00",
+        "purchLink": "http://www.lulu.com/shop/keith-swenson/",
+        "ebookLink": "",
+        "title": "Two Soldiers",
+        "weight": "0.8 pounds"
+    },
+    {
         "authors": ["Keith D Swenson"],
         "cats": ["Management", "Business", "ACM", "ESP"],
         "dimensions": "5.5 x 8.5 x 0.40 in",
