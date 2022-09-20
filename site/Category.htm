@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html class="js" lang="en-US"><!--<![endif]-->
+
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Category | Purple Hills Books</title>
+
+
+    <!--[if lt IE 9]>
+    <script src="misc/html5.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <script src="misc/merchant.js"></script>
+    <script type="text/javascript">
+        document.documentElement.className = 'js';
+    </script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" id="woocommerce-layout-css" href="misc/woocommerce-layout.css" type="text/css" media="all">
+    <link rel="stylesheet" id="woocommerce-smallscreen-css" href="misc/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
+    <link rel="stylesheet" id="woocommerce-general-css" href="misc/woocommerce.css" type="text/css" media="all">
+    <link rel="stylesheet" id="divi-fonts-css" href="misc/css.css" type="text/css" media="all">
+    <link rel="stylesheet" id="divi-style-css" href="misc/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="et_lb_modules-css" href="misc/style_002.css" type="text/css" media="all">
+    <link rel="stylesheet" id="et-shortcodes-css-css" href="misc/shortcodes.css" type="text/css" media="all">
+    <link rel="stylesheet" id="et-shortcodes-responsive-css-css" href="misc/shortcodes_responsive.css" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-background-css" href="misc/extra.css" type="text/css" media="all">
+    <script type="text/javascript" src="misc/jquery.js"></script>
+    <script type="text/javascript" src="misc/jquery-migrate.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+    <script src="bookApp.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <link rel="shortcut icon" href="misc/logofavicon.png">
+</head>
+
+
+<body style="padding-top: 80px;"
+     class="archive post-type-archive post-type-archive-product custom-background woocommerce woocommerce-page et_fixed_nav et_right_sidebar gecko et_includes_sidebar"
+     ng-app="bookApp" ng-controller="bookCtrl">
+
+{{selectCat()}}
+
+<header id="main-header">
+<div ng-include="'header.htm'">
+</header> <!-- #main-header -->
+
+<div id="main-content">
+    <div class="container">
+        <div id="content-area" class="clearfix">
+            <div id="left-area">
+            <nav class="woocommerce-breadcrumb">
+                <a class="home" href="index.htm">Home</a> / Categories / {{param.cat}}</nav>
+
+<h1 class="page-title">Books on {{param.cat}}</h1>
+
+
+
+
+<p class="woocommerce-result-count">
+    Showing {{filteredBooks.length}} results</p>
+<form class="woocommerce-ordering" method="get">
+    <select name="orderby" class="orderby">
+        <option value="menu_order" selected="selected">Default sorting</option>
+        <option value="popularity">Sort by popularity</option>
+        <option value="rating">Sort by average rating</option>
+        <option value="date">Sort by newness</option>
+        <option value="price">Sort by price: low to high</option>
+        <option value="price-desc">Sort by price: high to low</option>
+    </select>
+</form>
+
+<ul class="products">
+<li ng-repeat="rec in filteredBooks"
+    class="product type-product status-publish has-post-thumbnail featured taxable shipping-taxable purchasable product-type-variable product-cat-math instock">
+    <a href="Detail.htm#/book={{rec.key|encode}}">
+
+        <span class="et_shop_image">
+            <img ng-src="{{rec.key}}/square.jpg" class="attachment-shop_catalog wp-post-image"
+                 alt="Elem_fr_small">
+             <span class="et_overlay"></span>
+        </span>
+        <h3>{{rec.title}}</h3>
+
+        <span class="price"><span class="amount">{{rec.price}}</span></span>
+    </a>
+</li>
+
+
+
+</ul>
+
+</div> <!-- #left-area -->
+
+                </div> <!-- #content-area -->
+            </div> <!-- .container -->
+        </div> <!-- #main-content -->
+
+<footer id="main-footer">
+<div ng-include="'footer.htm'"></div>
+</footer> <!-- #main-footer -->
+
+</body>
+</html>

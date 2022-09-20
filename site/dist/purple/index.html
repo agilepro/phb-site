@@ -1,0 +1,77 @@
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<body>
+<style>h1 {color:brown;}</style>
+<div class="well"><h1>Purple Utilities</h1>
+
+<p>This is a collection of classes useful for many types of web applications and gathered into a single relatively small library for easy use.</p>
+
+<p>Please find the JavaDoc for the Purple Utilities at 
+<a href="http://purplehillsbooks.com/purpleDoc/">http://purplehillsbooks.com/purpleDoc/</a>
+</p>
+
+
+<ul>
+<li><a href="purple.jar">purple.jar</a> - Nov 24, 2020</li>
+</ul>
+
+<p>Find more information at: <a href="https://github.com/agilepro/purple">Purple on GitHub</a>.
+
+<h2>Release notes</h2>
+
+<p><b>Dec, 2020</b></p>
+
+<ul>
+<li>Added an interface TemplatizedMessage which other exception classes
+    can implement, and if so can have their own exception templates
+    and parameters included in the JSON conversion.</li>
+</ul>
+
+
+
+<p><b>Nov, 2020</b></p>
+
+<ul>
+<li>Added JSON Servlet classes now making it easy to extend these classes
+    to make your own REST oriented data server that sends and receives
+    data in JSON format.  Very convenient for JSON API support.
+    </li>
+<li>JSONSchema allows $ref reference to another schema</li>
+<li>FileSchemaLibrary class added to manage referenced schemas</li>
+<li>JSONDelta class generates a diff JSONObject from two other JSONObjects</li>
+<li>Conversions XML to/fom JSON more robust</li>
+<li>LockableJSONFile extra lock eliminated to avoid bug with zero length files</li>
+<li>JSONException parameters limited in size</li>
+</ul>
+
+<p><b>June, 2020</b></p>
+
+<ul>
+<li>XML to JSON converter is a little smarter about detecting the schema</li>
+<li>Support for JSONSchema, both generation of schema object from example, and validation of example by schema</li>
+<li>CSVHelper has write method with variable parameters that is easier to use</li>
+<li>Writing XML avoids writing some characters that are not parseable by XML parser</li>
+</ul>
+
+<p><b>December, 2018</b></p>
+
+<ul>
+<li>New classes 
+<a href="http://purplehillsbooks.com/purpleDoc/com/purplehillsbooks/json/JSONDiff.html">JSONDiff</a>
+and 
+<a href="http://purplehillsbooks.com/purpleDoc/com/purplehillsbooks/json/JSONFormatter.html">JSONFormatter</a>
+offer command line commands for formatting a JSON file, 
+and for comparing two different JSON files.</li>
+</ul>
+
+
+<p><b>November, 2018</b></p>
+
+<ul>
+<li>A variety of changes to allow for high reliable manipulation of JSON files in an environment where the file system is unreliable.</li>
+</ul>
+
+
+</div>
+</body>
+</html>
